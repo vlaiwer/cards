@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.werty {
+    width: 220px;
+}
+.werty img {
+    border: 20px double black;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.footer content {
+    width: 2px;
+}
+.footer content img {
+    border: 20px double black;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.infoSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;   
+}
+.infoSection .lox {
+    width: 220px;
+    height: 440px;
+    border: 2px solid rgba(130, 30, 220, 0.2);
+    background-color: rgb(77, 77, 77);
+}
+.infoSection .lox .popo {
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 0;
+}
+.infoSection .lox .popo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.infoSection .lox .red {
+    padding: 20px;
+    color: white;
+}
+.infoSection .lox .red span {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.infoSection .lox .red p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
